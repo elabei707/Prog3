@@ -1,0 +1,3 @@
+roundP :: Float -> Float -> Float
+roundP x digits = let d = 10**digits
+    in fromInteger (round (x*d))/d
